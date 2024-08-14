@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    background-color: #1d1d1d;
+    height: 100vh;
+}
+
+.navbar{
+    width: 100%;
+    height: 15%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.logodiv{
+    width: 10%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.subnav{
+    width: 95%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo{
+    width: 80px;
+    height: 25px;
+}
+.menu{
+    width:75%;
+    height: 100%;
+    /* background-color: bisque; */
+    display: flex;   
+    align-items: center;
+    justify-content: space-evenly; 
+    list-style-type: none;
+    color:white;
+    font-family: "Sora",sans-serif;
+
+}
+.hireme
+{
+    padding: 12px;
+    font-family:"Sora",sans-serif ;
+    
+}
+.photo{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+
+}
+.subdiv{
+    width: 90%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.pic{
+    width: 40%;
+    /* background-color:black ; */
+}
+.pic img{
+    width: 200px;
+    height: 180px;
+}
+h3{
+ width: 45%;
+ height: 3%;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: white;
+}
+.introduction{
+    width: 75%;
+    height: 100%;
+    background-color:transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.subdiv2{
+width: 90%;
+padding-top: 30px;
+font-size:x-large;
+/* background-color: blue; */
+display: flex;
+flex-direction: column;
+gap: 20px;
+color: white;
+
+
+}
+span{
+    color: green;
+}
+.general1{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.general2{
+    width: 30%;
+    display: flex;
+    align-items: center ;
+    gap: 20px;
+}
+.general{
+    width: 100%;
+    display: flex;
+}
+.Download {
+    padding: 15px;
+    font-family: "Sora",sans-serif;
+}
+.N1{
+    width: 50%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    
+    
+}
+.N1 img{
+    width: 10%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.N2 img{
+    width: 10%;
+    height: 50%;
+    background-color: blueviolet;
+}
+
+.N2{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.N3{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.N3 img{
+    width: 10%;
+    height: 10%;
+    background-color: blueviolet;
+
+}
+.N4{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.N4 img{
+    width: 10%;
+    height: 10%;
+    background-color: blueviolet;
+}
+.sk h4{
+    width: 70%;
+    height: 20%;
+    border-bottom: 1px solid black;
+}
+.rows{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    gap: 10px;
+}
+.row1{
+    width: 90%;
+    height: 59px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    padding: 10px;
+    position: relative;
+    
+}
+
+.row1 img{
+    width: 15%;
+    height: 50%;
+    display: flex;   
+}
+.row1 h5{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.row1 h6{
+    width: 10%;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: small;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+   
+}
+.ser{ width: 80%;
+    margin: 0 auto;
+    /* background-color: aqua; */
+
+}
+.ser h2{
+   
+    height: auto;
+    border-bottom: 1px solid white;
+     margin-bottom: 30px;
+     color: white;
+    /* background-color: blue; */
+}
+
+.r{
+    width: 80%;
+    height: 65%;
+    display: flex;
+    grid-template-columns: repeat(4 1fr);
+    column-gap: 10px;  
+    /* background-color: yellow; */
+    margin: 0 auto;
+}
+
+.r1{
+    width: 100%;
+    color: white;
+    background-color: gray;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    grid-row-gap: 23px;
+    padding: 20px;
+}
+
+.r1 h1{
+    font-size: 60px;
+}
+.r1 p{
+    width: 70%;  
+}
+
+.buttons-holder{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: beige; */
+    grid-gap: 10px;
+
+}
+.buttons-holder h6{
+    padding: 3px;
+    width: 60px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: small;
+    justify-content: space-between;
+}    
+.buttons-holder2 h6{
+    padding: 3px;
+    width: 60px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: small;
+    justify-content: space-between;
+
+}
+.buttons-holder2{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: greenyellow; */
+    grid-gap: 10px;
+}
+.buttons-holder3{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: greenyellow; */
+    grid-gap: 10px;   
+}
+.buttons-holder3 h6{
+    padding: 3px;
+    width: 60px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: small;
+    justify-content: space-between;
+}
+.buttons-holder4{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: greenyellow; */
+    grid-gap: 10px;
+}
+.buttons-holder4 h6{
+    padding: 3px;
+    width: 60px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    font-size: small;
+    justify-content: space-between;
+}
+
+
+/* .phone-pic{
+    width: 40%;
+    height: 50%;
+    display: flex;
+}
+.card-pic{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    
+} */
+ .portfolio-container{
+    width: 80%;
+    height: 68%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-color:black;
+    justify-content: space-between;
+    
+    
+ }
+ .portfolio-content{
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+ }
+ .portfolio-content img{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+ }
+ .content-info{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+    border: 1px solid black;
+ 
+ }
+.content-info h4{
+    border-radius: 5px;
+}
+
+ 
+
+ 
+ 
+
+ 
