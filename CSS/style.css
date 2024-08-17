@@ -47,7 +47,15 @@ body{
     list-style-type: none;
     color:white;
     font-family: "Sora",sans-serif;
+    font-size: 13px;
+    padding: 90px;
 
+}
+.intro h1{
+    /* background-color: #1d1d1d; */
+    font-size: 50px;
+    font-family: 'Sora', sans-serif;
+    margin-bottom: 10px;
 }
 a{
     text-decoration: none;
@@ -55,34 +63,85 @@ a{
 }
 .hireme
 {
-    padding: 12px;
+    width: 7%;
+    padding: 10px;
     font-family:"Sora",sans-serif ;
+    border-radius: 9px;
+    font-size: small;
     
 }
-.photo{
-    width: 100%;
+.profile-container{
+    width: 90%;
     height: auto;
+    margin: 0 auto;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background-color: black; */
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #1d1d1d;
+    /* background-color: yellow; */
+    /* gap:10px; */
 
 }
-.subdiv{
-    width: 90%;
-    height: 100%;
-    /* background-color: black; */
-    display: flex;
-    /* align-items: center; */
-    justify-content: center;
-}
+
 .pic{
-    width: 40%;
-    /* background-color:black ; */
+    width: 20%;
+    height: 350px;
+    background-color:#1d1d1d ;
+    border: 1px solid rgba(132, 132, 132, 0.534);
+    padding: 25px;
+    position: sticky;
+    top: 0;
+    /* transform: rotateY('5deg'); */
+    border-radius: 5px;
 }
 .pic img{
-    width: 200px;
-    height: 180px;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    background-color: lightgreen;  
+    margin-bottom: 10px;
+}
+.content{
+    height: 35%;
+    width: 100%;
+    /* background-color: greenyellow; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.content h5{
+    font-size: larger;
+    color: white;
+    /* background-color: #1d1d1d; */
+}
+.pic h6{
+    color: white;
+    font-size: small;
+    background-color: #1d1d1d;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+
+}
+.icons{
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    height: 70px;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+}
+.icons i{
+    font-size: 25px;
+    padding: 10px;
+    /* margin-left: 10px; */
+    border-radius: 35px;
+    border: 1px solid white;
+    /* background-color: aquamarine; */
 }
 h3{
  width: 45%;
@@ -93,22 +152,24 @@ justify-content: center;
 background-color: white;
 }
 .introduction{
-    width: 75%;
+    width: 70%;
     height: 100%;
     background-color:transparent;
     display: flex;
     align-items: center;
     justify-content: center;
+    /* background-color: aqua; */
     
 }
+
 .subdiv2{
 width: 90%;
 padding-top: 30px;
-font-size:x-large;
+font-size:30px;
 /* background-color: blue; */
 display: flex;
 flex-direction: column;
-gap: 20px;
+gap: 50px;
 color: white;
 
 }
@@ -121,6 +182,14 @@ span{
     align-items: center;
     gap: 20px;
 }
+.general1 p{
+    /* background-color: green; */
+    font-size: 13px;
+}
+.general2 p{
+    font-size: 13px;
+    /* background-color: greenyellow; */
+}
 
 .general2{
     width: 30%;
@@ -132,32 +201,56 @@ span{
     width: 100%;
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
     margin-bottom: 40px;
+    /* background-color: red; */
+    font-family: 'Sora', sans-serif;
 }
 .Download {
+    width: 150px;
+    height: 10%;
     padding: 15px;
+    display: flex;
+    /* justify-content: left; */
+    background-color: #1d1d1d;
+    color: white;
     font-family: "Sora",sans-serif;
+    border: 1px solid white;
+    border-radius: 4px;  
 }
+
 .N1{
-    width: 65%;
+    width: 85%;
     height: 20%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     /* background-color: greenyellow; */
-    margin-bottom: 30px;
-
-    
-    
+    margin-bottom: 1px;
+    font-family: "Sora",sans-serif; 
+    padding: 1px;
+    font-size: smaller;
 }
 .N1 img{
     width: 10%;
     display: flex;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 .N1 h6{
 width: 150px;
+}
+.N1 h5{
+    width: 18%;
+    /* background-color: greenyellow; */
+    border: 1px solid whitesmoke;
+    border-radius: 15px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
 }
 .sk h4{
     width: 75%;
@@ -166,12 +259,17 @@ width: 150px;
     margin-bottom: 30px;
     padding-bottom: 10px;
     /* padding: 30px; */
+    font-family: 'Sora', sans-serif; 
     
     
 }
 .Aboutus{
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    /* background-color: red; */
+    font-family: 'Sora', sans-serif;
+    
 }
+
 .rows{
     width: 100%;
     display: grid;
@@ -186,9 +284,14 @@ width: 150px;
     align-items: center;
     justify-content: space-evenly;
     border-radius: 10px;
-    border: 1.5px solid black;
+    border: 1.5px solid whitesmoke;
     padding: 10px;
     position: relative;
+    font-family: 'Sora', sans-serif;
+    font-size: smaller;
+    /* margin-bottom: 90px; */
+    
+    
     
 }
 
@@ -207,19 +310,22 @@ width: 150px;
 
 .row1 h6{
     width: 10%;
-    border: 1.5px solid black;
+    border: 1.5px solid whitesmoke;
     border-radius: 5px;
     font-size: small;
     align-items: center;
     position: absolute;
     right: 10px;
     top: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
    
 }
-.ser{ width: 80%;
+.ser{ width: 90%;
     margin: 0 auto;
     /* background-color: aqua; */
-    margin-bottom: 20px;
+    margin-top: 50px;
 
 }
 .ser h2{
@@ -231,17 +337,19 @@ width: 150px;
     /* background-color: blue; */
     /* padding: 20px; */
     padding-bottom: 10px;
+    font-family: 'Sora', sans-serif ;
 }
 
 .r{
-    width: 80%;
-    height: 65%;
+    width: 75%;
+    height: 55%;
     display: flex;
     grid-template-columns: repeat(4 1fr);
     column-gap: 10px;  
     /* background-color: yellow; */
     margin: 0 auto;
-    margin-bottom: 30px ;
+    margin-bottom: 30px;
+    
 }
 
 .r1{
@@ -252,8 +360,10 @@ width: 150px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    grid-row-gap: 23px;
-    padding: 20px;
+    grid-row-gap: 1px;
+    padding: 15px;
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;;
 }
 
 .r1 h1{
@@ -274,25 +384,27 @@ width: 150px;
 .buttons-holder h6{
     padding: 3px;
     width: 60px;
-    border: 1.5px solid black;
-    border-radius: 5px;
+    display: flex;
+    border: 1.5px solid whitesmoke;
+    border-radius: 15px;
     font-size: small;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    
 }    
 .buttons-holder2 h6{
     padding: 3px;
     width: 60px;
-    border: 1.5px solid black;
-    border-radius: 5px;
+    display: flex;
+    border: 1.5px solid whitesmoke;
+    border-radius: 15px;
     font-size: small;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 .buttons-holder2{
     width: 80%;
     display: flex;
     flex-wrap: wrap;
-    /* background-color: greenyellow; */
     grid-gap: 10px;
 }
 .buttons-holder3{
@@ -305,10 +417,12 @@ width: 150px;
 .buttons-holder3 h6{
     padding: 3px;
     width: 60px;
-    border: 1.5px solid black;
+    border: 1.5px solid whitesmoke;
     border-radius: 5px;
     font-size: small;
-    justify-content: space-between;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .buttons-holder4{
     width: 80%;
@@ -320,10 +434,12 @@ width: 150px;
 .buttons-holder4 h6{
     padding: 3px;
     width: 60px;
-    border: 1.5px solid black;
-    border-radius: 5px;
+    border: 1.5px solid whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
     font-size: small;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
@@ -339,22 +455,22 @@ width: 150px;
     
 } */
  .portfolio-container{
-    width: 80%;
+    width: 100%;
     height: 68%;
     display: flex;
     margin: 0 auto;
     align-items: center;
-    background-color:black;
+    background-color:#1d1d1d;
     justify-content: space-between;
-    margin-bottom: 35px;
-    
-    
+    /* background-color: greenyellow; */
+    margin-bottom: 35px;  
  }
  .portfolio-content{
     width: 45%;
     height: 100%;
     display: flex;
     flex-direction: column;
+    /* background-color: aqua; */
  }
  .portfolio-content img{
     height: 400px;
@@ -365,8 +481,9 @@ width: 150px;
  .content-info{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    /* background-color: red; */
     padding: 10px;
+    margin-bottom: 50px;
  }
  .content-info h4{    
     height: 20px;
@@ -375,42 +492,157 @@ width: 150px;
     border: 1px solid white;
     text-align: center;
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     padding: 1px;
     margin-bottom: 15px;
+    font-family: 'Sora', sans-serif;
  
  }
- /* .content-info h5{
+ .content-info h5{
     width: 60%;
     height: 25px;
     font-family: 'Sora', sans-serif;
-    color: pink;
- } */
+    color: white;
+    /* background-color: yellow; */
+ }
  .content-info i{
     color: white;
  }
  .text h5{
     width: 100%;
     color: white;
+    /* background-color: pink; */
  }
  .contact{
     width: 80%;
     margin: 0 auto;
  }
- .touch h5{
-    width: 100px;
-    height: 15px;
-    border: 1px solid white;
-    border-radius: 5px;
+ .product-cointainer{
+    width: 90%;
+    height: 70%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    background-color:#1d1d1d;
+    justify-content: space-between;
+    /* background-color: greenyellow; */
+    margin-bottom: 25px;
     color: white;
-    margin-bottom: 10px;
+    gap: 30px;
+    font-family: 'Sora', sans-serif;
+ }
+ .product-content{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    justify-content: space-evenly;
     
  }
+ .product-content img{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1.5px solid rgb(230, 219, 219);
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;   
+ }
+.product-content2{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    justify-content: space-evenly;
 
+} 
+.product-content2 img{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1.5px solid rgb(230, 219, 219);
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;   
+ }
+ .product-content3{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1d1d1d;
+    justify-content: space-evenly;
+    /* color: pink; */
+   
+}   
+.product-content3 img{
+    height: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+    border: 1.5px solid rgb(230, 219, 219);
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;
 
- 
+}
+.contact{
+    width: 90%;
+    height: 50%;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: space;
+}
+.sub-contact{
+    /* background-color: greenyellow; */
+    width: 50%;
+}
+.touch h5{
+    width: 25%;
+    height: 55%;
+    border: 1.5px solid rgb(230, 219, 219);
+    border-radius: 15px;
+    color: white;
+    /* background-color: greenyellow; */
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Sora', sans-serif;   
+}
+.touch h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-family: 'Sora', sans-serif;
+}
+.touch p{
+    color: white;
+    font-size: large;
+    margin-bottom: 19px;
+    font-family: 'Sora', sans-serif;
+}
+.touch h6{
+    color: white;
+    font-size: xx-large;
+    font-family: 'Sora', sans-serif;  
+}
+.myinfo{
+    width: 50%;
+    /* background-color: goldenrod; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 25px;
+    font-family: 'Sora', sans-serif;
+}
 
- 
- 
-
- 
+.myinfo input{
+    height: 50px;
+    width: 100%;
+    font-family: 'Sora', sans-serif;
+}
+.contactme{
+    width: 100%;
+    display: flex;
+    /* background-color: aquamarine; */
+    grid-gap: 25px;
+    font-family: 'Sora', sans-serif;
+}
