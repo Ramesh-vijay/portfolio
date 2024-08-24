@@ -5,6 +5,9 @@
     box-sizing: border-box;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 100vw;
     /* background: linear-gradient(to top right, rgb(0, 84, 0), black,black, rgb(0, 78, 0)); */
