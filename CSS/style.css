@@ -1919,6 +1919,7 @@ width: 150px;
         height: 100%;
         /* background-color: blueviolet; */
         display: flex;
+        flex-direction: column;
         justify-content: space;
         margin-bottom: 50px;
         
