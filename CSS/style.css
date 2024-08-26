@@ -43,6 +43,7 @@ body{
     display: flex;
     align-items: center;
     justify-content:center;
+    
 }
 .logodiv{
     width: 10%;
@@ -59,8 +60,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
-
 }
 .logo{
     width: 80px;
@@ -78,7 +77,6 @@ body{
     font-family: "Sora",sans-serif;
     font-size: 13px;
     padding: 90px;
-
 }
 /* .intro h1{
     background-color: #1d1d1d;
@@ -719,10 +717,10 @@ width: 150px;
     display: flex;
     color: whitesmoke;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-family: 'Sora', sans-serif;
     font-size: small;
-    padding: 10px;
+    padding: 5px;
 }
 
 
